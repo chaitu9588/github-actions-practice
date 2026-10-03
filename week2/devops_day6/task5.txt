@@ -1,0 +1,36 @@
+1. What is Git?
+Ans:
+Git is a distributed version control system used to track changes in files and source code. It allows developers to savedifferent versions of their work, compare changes, and collaborate with others.
+=======================================================================================================================
+2. Difference between Git and GitHub
+Ans:
+Git: A version control tool installed on your computer that tracks and manages code changes.
+GitHub: A cloud-based platform that hosts Git repositories online and helps developers collaborate, share code, and manage projects.
+=======================================================================================================================
+3. What is a Commit?
+Ans:
+A commit is a saved snapshot of changes in a Git repository. It records the changes along with a message describing whatwas changed.
+
+Example:
+
+git commit -m "Add Week 1 tasks"
+=======================================================================================================================
+4. What is the Staging Area?
+Ans:
+The staging area is an intermediate area where you select the changes that you want to include in the next commit.
+
+Example:
+
+git add .
+
+This moves the changes from the working directory → staging area.
+=======================================================================================================================
+5. What does git status do?
+Ans:
+git status shows the current state of your Git repository. It tells you which files are modified, untracked, staged, or ready to be committed.
+
+Example:
+
+git status
+
+It helps you understand what has changed and what Git is going to include in the next commit.
