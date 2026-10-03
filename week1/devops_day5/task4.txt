@@ -1,0 +1,23 @@
+1. What is Shell Scripting?
+Ans:
+Shell scripting is the process of writing a series of commands in a file to automate tasks in a Linux/Unix operating system. It is commonly used for system administration, deployments, backups, and other DevOps tasks.
+
+========================================================================================================================
+2. What is Shebang?
+Ans:
+A shebang is the first line of a script that specifies which interpreter should be used to execute the script. In a Bash script, it is commonly written as:
+
+#!/bin/bash
+
+========================================================================================================================
+3. Difference Between if and Loop
+Ans:
+if statement: Used to make a decision based on a condition. It executes a block of code when the condition is true.
+Loop: Used to repeat a block of code multiple times while a condition is true or for a set of items.
+
+========================================================================================================================
+4. Why is Automation Important in DevOps?
+Ans:
+Automation is important in DevOps because it reduces manual work, saves time, minimizes human errors, and provides consistent results. It helps automate tasks such as testing, deployment, monitoring, infrastructure management, and backups, enabling faster and more reliable software delivery.
+
+========================================================================================================================

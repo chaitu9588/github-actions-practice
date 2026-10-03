@@ -1,0 +1,35 @@
+1. What is DevOps?
+Ans: DevOps is a combination of Development and Operations.
+It helps development and operations teams work together efficiently.
+DevOps uses automation, continuous integration, and continuous deployment.
+It helps deliver software faster and with better reliability.
+It also improves collaboration and communication between teams.
+
+========================================================================================================================
+2. Difference between DevOps & traditional model?
+Ans: 
+
+DevOps Model:
+
+DevOps focuses on collaboration between development and operations teams. It uses automation, continuous testing, continuous integration, and continuous deployment. This helps deliver software faster and provides continuous feedback and monitoring.
+
+Traditional Model:
+
+In the traditional model, development and operations teams work separately. It relies more on manual processes and follows a sequential approach. Testing and deployment usually happen after development is completed, making the process slower.
+
+========================================================================================================================
+3. Write 5 Linux commands
+
+Ans: Practiced Following Linux commands:
+
+pwd – Shows the current working directory.
+ls – Lists files and folders in the current directory.
+cd folder – Moves into the specified folder.
+cd .. – Moves to the parent directory.
+mkdir test – Creates a new directory named test.
+touch file.txt – Creates a new empty file named file.txt.
+rm file.txt – Deletes the specified file.
+rm -r test – Deletes the specified folder and its contents.
+cat file.txt – Displays the contents of a file.
+
+========================================================================================================================

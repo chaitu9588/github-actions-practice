@@ -1,0 +1,4 @@
+error: failed login
+info: system started
+warning: disk usage high
+error: connection failed

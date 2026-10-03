@@ -1,0 +1,59 @@
+1. What is Linux file system?
+Ans:
+The Linux file system is the structure used by Linux to organize, store, and manage files and directories.
+
+In Linux, everything starts from the root directory /.
+
+Important directories include:
+
+/home → users' personal files
+/etc → system configuration files
+/var → logs and variable data
+/bin → essential commands
+/tmp → temporary files
+
+=====================================================================================================
+2. Difference between absolute and relative path?
+Ans:
+Absolute Path:
+1. Starts from the root /
+2. Gives the complete location
+3. Example: /home/user/docs/file.txt
+
+Relative Path:
+1. Starts from the current directory
+2. Gives the location relative to where you are
+3. Example: docs/file.txt
+
+=====================================================================================================
+3. What are file permissions?
+Ans:
+File permissions control who can read, write, or execute a file or directory.
+
+Linux has three permission types:
+
+r → Read
+w → Write
+x → Execute
+
+And three categories of users:
+
+u (user/owner) → owner of the file
+g (group) → members of the file's group
+o (others) → everyone else
+
+Example:
+
+-rwxr-xr--
+
+This means:
+
+Owner → rwx → read, write, execute
+Group → r-x → read, execute
+Others → r-- → read only
+
+===================================================================================================
+4.Explain chmod 755?
+Ans:
+chmod 755 is used to change file permissions. The first 7 gives the owner read, write, and execute (rwx) permissions, while the two 5s give the group and others read and execute (r-x) permissions. Therefore, 755 means rwxr-xr-x.
+

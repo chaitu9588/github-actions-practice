@@ -1,0 +1,22 @@
+1. What is grep?
+Ans:
+grep is a Linux command used to search for specific text or patterns inside files or command output. It displays the lines that match the given pattern.
+
+========================================================================================================================2. Difference between find and grep?
+Ans:
+find → Used to search for files and directories based on name, type, size, permissions, etc.
+grep → Used to search for text or patterns inside files or command output.
+
+========================================================================================================================3. What is a process?
+Ans:
+A process is a program that is currently running in the system. Each process has a unique Process ID (PID) and uses system resources such as CPU and memory.
+
+========================================================================================================================4. What does top command show?
+Ans:
+The top command displays real-time information about running processes. It shows CPU usage, memory usage, system load, process IDs, and which processes are consuming the most resources.
+
+========================================================================================================================5. What is piping?
+Ans:
+Piping is the process of sending the output of one command directly as the input to another command using the | (pipe) symbol.
+
+========================================================================================================================

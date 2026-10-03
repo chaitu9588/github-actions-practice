@@ -1,0 +1,1 @@
+I have created "log.txt" file under folder "logs".

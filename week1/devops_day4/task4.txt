@@ -1,0 +1,37 @@
+1. What is IP address?
+Ans:
+An IP (Internet Protocol) address is a unique address assigned to a device on a network. It is used to identify the device and communicate with other devices over a network.
+Example: 192.168.1.10
+
+========================================================================================================================2. What is DNS?
+Ans:
+DNS (Domain Name System) converts domain names into IP addresses so computers can find the required server.
+Example: google.com → IP address of Google's server.
+
+========================================================================================================================3. What is port?
+Ans:
+A port is a logical communication endpoint used to identify a specific service or application running on a device.
+Examples:
+
+22 → SSH
+80 → HTTP
+443 → HTTPS
+
+========================================================================================================================4. Difference between HTTP and HTTPS?
+Ans:
+HTTP (HyperText Transfer Protocol): Transfers data between a client and server without encryption.
+HTTPS (HTTP Secure): Transfers data using encryption with TLS/SSL, making communication more secure.
+HTTP commonly uses port 80.
+HTTPS commonly uses port 443.
+
+========================================================================================================================5. What is curl used for?
+Ans:
+curl is a command-line tool used to send requests to servers and communicate with APIs or websites. It can be used to:
+
+Call APIs
+Download files
+Send HTTP requests
+Check response headers
+Test network connectivity
+
+========================================================================================================================
