@@ -1,0 +1,5 @@
+Build: The Build stage is where the source code is prepared to create a working application. Dependencies are installed, code is compiled or packaged if required, and build errors are checked. If the build fails, the pipeline usually stops.
+
+Test: The Test stage checks whether the application works correctly. Automated tests are executed to find bugs or errors. For example, unit tests, integration tests, and other automated checks can be performed. If the tests fail, the code should not proceed to deployment.
+
+Deploy: The Deploy stage releases the successfully built and tested application to an environment such as development, staging, or production. Deployment can be automated using CI/CD tools and may involve copying files, updating servers, restarting services, or deploying containers.

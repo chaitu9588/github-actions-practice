@@ -1,0 +1,20 @@
+1. What is a branch?
+Ans:
+A branch in Git is a separate line of development.
+
+It allows you to work on a feature or change without affecting the main code.
+
+========================================================================================================================2. What is a merge conflict?
+Ans:
+A merge conflict happens when Git cannot automatically combine changes from two branches.
+
+=======================================================================================================================
+3. Difference between Merge and Rebase
+Ans:
+Both are used to combine changes from different branches, but they work differently.
+Merge creates a merge commit.
+Rebase moves your feature commits on top of the latest main.
+
+========================================================================================================================4. What is .gitignore?
+Ans:
+.gitignore is a file that tells Git which files or directories should not be tracked.

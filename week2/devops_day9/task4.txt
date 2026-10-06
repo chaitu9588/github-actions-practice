@@ -1,0 +1,18 @@
+1. What is CI/CD?
+Ans:
+CI/CD stands for Continuous Integration and Continuous Delivery/Deployment. It is a DevOps practice that automates the process of building, testing, and delivering software. CI helps developers integrate and test code changes frequently, while CD helps deliver or deploy the tested code quickly and reliably.
+
+========================================================================================================================
+2. What is a Pipeline?
+Ans:
+A pipeline is a series of automated steps used to move code from development to deployment. A typical CI/CD pipeline includes stages such as Build → Test → Deploy. Each stage performs a specific task, and if one stage fails, the pipeline can stop until the issue is fixed.
+
+========================================================================================================================
+3. Difference Between Delivery and Deployment
+Ans:
+Continuous Delivery means the application is automatically built, tested, and prepared for release, but the final production release usually requires a manual approval. Continuous Deployment goes one step further by automatically releasing successfully tested changes to production without manual approval. In simple terms, Delivery = ready to release, Deployment = automatically released.
+
+========================================================================================================================
+4. Why is Automation Important?
+Ans:
+Automation is important because it reduces manual work, saves time, minimizes human errors, and makes software delivery faster and more reliable. In DevOps, automation can be used for building applications, running tests, deploying code, monitoring systems, and managing infrastructure.
