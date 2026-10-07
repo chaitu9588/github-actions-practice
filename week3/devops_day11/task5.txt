@@ -1,0 +1,30 @@
+ 1. What is Docker?
+Ans:
+Docker is a **containerization platform** used to package and run applications in isolated environments called containers. It packages the application along with its code, dependencies, libraries, and configuration so that it can run consistently across different environments.
+
+==================================================================
+
+2. What is Containerization?
+
+Ans:Containerization is the process of **packaging an application and all its required dependencies into a container**. Containers provide an isolated environment for applications while sharing the host operating system's kernel. This makes applications lightweight, portable, and easy to deploy.
+
+==================================================================
+
+3. Difference between VM and Container
+
+Ans: A **Virtual Machine (VM)** includes a complete guest operating system and runs on a hypervisor, so it generally requires more CPU, memory, storage, and time to start. A **container** shares the host operating system's kernel and contains only the application and its required dependencies, making it lightweight, faster to start, and more efficient than a VM.
+
+==================================================================
+
+4. What is a Docker Image?
+
+Ans: A Docker image is a **read-only template used to create Docker containers**. It contains everything required to run an application, including the application code, libraries, dependencies, and configuration. For example, a Python application can use a Python Docker image as its base image.
+
+==================================================================
+
+5. What is Port Mapping?
+
+Ans: Port mapping is the process of **connecting a port on the host machine to a port inside a Docker container** so that users can access the application running inside the container. For example, `docker run -p 8080:80 nginx` maps port `8080` of the host machine to port `80` of the container, allowing the application to be accessed through `http://localhost:8080`.
+
+==================================================================
+
