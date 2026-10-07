@@ -1,0 +1,23 @@
+1. What is Fork?
+Ans:
+A fork is a copy of another user's or organization's GitHub repository into your own GitHub account. It allows you to work on the project independently without affecting the original repository. After making changes in your fork, you can create a Pull Request to request the original repository owner to review and merge your changes.
+
+========================================================================================================================
+2. What is Pull Request?
+Ans:
+A Pull Request (PR) is a request to merge changes from one branch into another branch or from a fork into the original repository. It allows developers to review the code, discuss changes, find errors, and approve the changes before they are merged. For example, changes from a feature1 branch can be submitted through a Pull Request to merge them into the main branch.
+
+========================================================================================================================
+3. Difference Between Fork and Clone
+Ans:
+A fork creates a copy of a GitHub repository in your own GitHub account, while a clone creates a local copy of a repository on your computer. A fork is mainly used when you want to work on someone else's repository without having direct access to it, whereas cloning is used to download a repository to your local system so you can work on it using Git commands.
+
+========================================================================================================================
+4. Why is Code Review Important?
+Ans:
+Code review is important because it helps developers find bugs, mistakes, security issues, and improvements before the code is merged into the main branch. It also helps maintain coding standards, improve code quality, and share knowledge among team members. Code review is commonly performed through Pull Requests on GitHub.
+
+========================================================================================================================
+5. Explain GitHub Workflow
+Ans:
+A typical GitHub workflow starts by creating or cloning a repository. The developer creates a separate branch for makingchanges, modifies or adds files, stages the changes using git add, and saves them using git commit. The branch is then pushed to GitHub using git push. After that, a Pull Request is created to merge the changes into the main branch. Other developers review the code, suggest changes if required, and approve the Pull Request. Finally, the approved changes are merged into the main branch.
