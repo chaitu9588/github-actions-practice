@@ -1,0 +1,22 @@
+1. What is GitHub Actions?
+Ans:
+GitHub Actions is a CI/CD automation tool provided by GitHub. It automatically performs tasks such as testing, building,and deploying code whenever a specific event occurs in a repository.
+
+========================================================================================================================
+2. What is a workflow?
+Ans:
+A workflow is an automated process defined in a YAML file. It contains a series of jobs and steps that GitHub Actions executes, such as checking out code, installing dependencies, running tests, and deploying an application.
+
+========================================================================================================================
+3. What triggers a workflow?
+Ans:
+A trigger is an event that starts a GitHub Actions workflow. Common triggers include push, pull_request, creating a release, or manually starting a workflow using workflow_dispatch.
+
+========================================================================================================================
+4. What is a runner?
+Ans:
+A runner is a machine that executes the jobs and commands defined in a GitHub Actions workflow. GitHub provides hosted runners such as Ubuntu, Windows, and macOS runners.
+
+========================================================================================================================
+5. What is YAML?
+YAML stands for YAML Ain't Markup Language. It is a human-readable configuration format used to define GitHub Actions workflows, including workflows, jobs, triggers, and steps. A GitHub Actions workflow file usually has a .yml or .yaml extension.
