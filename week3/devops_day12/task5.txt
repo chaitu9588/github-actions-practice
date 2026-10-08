@@ -1,0 +1,29 @@
+1. What is Dockerfile?
+
+Ans: A Dockerfile is a text file that contains instructions used to build a Docker image. It defines things such as the base image, required software, application files, environment variables, and the command to run the application.
+
+===============================================================================
+
+2. What does FROM do?
+
+Ans: FROM specifies the base image from which the new Docker image will be created. It is usually the first instruction in a Dockerfile. For example, FROM python:3.12 tells Docker to use the Python 3.12 image as the starting point for building the application image.
+
+===============================================================================
+
+3. Difference between RUN and CMD
+
+Ans: RUN is used to execute commands while building the Docker image. For example, RUN pip install -r requirements.txt installs dependencies during the image build. CMD specifies the default command that runs when a container is started. For example, CMD ["python3", "app.py"] runs the Python application when the container starts.
+
+===============================================================================
+
+4. What is image build process?
+
+Ans: The Docker image build process is the process of creating a Docker image using a Dockerfile. When you run docker build -t myapp ., Docker reads the Dockerfile, downloads the base image specified by FROM, executes instructions such as RUN and COPY, creates layers, and finally produces a Docker image that can be used to create containers.
+
+===============================================================================
+
+5. What are Docker layers?
+
+Ans: Docker layers are separate read-only filesystem layers created from instructions in a Dockerfile. These layers are combined to form the final Docker image. Docker can reuse unchanged layers during future builds, which makes the build process faster and saves storage.
+
+===============================================================================
