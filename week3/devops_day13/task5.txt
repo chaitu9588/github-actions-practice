@@ -1,0 +1,29 @@
+1. What is Docker volume?
+
+Ans: A Docker volume is a storage mechanism used to store data outside a container's writable layer. It allows data to persist even when a container is stopped or removed. Multiple containers can share the same volume to access the same files and data.
+
+===================================================================================================
+
+2. Difference between volume and bind mount
+
+Ans: A Docker volume is managed by Docker and stored in a location controlled by Docker on the host machine. A bind mount connects a specific file or directory from the host machine to a container. Volumes are generally preferred for persistent application data, while bind mounts are useful when developers need to share source code or configuration files between the host and a container.
+
+===================================================================================================
+
+3. What is Docker network?
+
+Ans: A Docker network allows containers to communicate with each other and, when configured, with external networks. Docker provides different network drivers, such as bridge, host, and none. A custom bridge network allows containers to communicate using their container names.
+
+===================================================================================================
+
+4. How containers communicate?
+
+Ans: Containers communicate through Docker networks using IP addresses, ports, and DNS-based container name resolution. When two containers are connected to the same custom bridge network, one container can access another using its container name and the appropriate port. For example, a client container can communicate with an Nginx container using curl http://webserver if both containers are connected to the same network and Nginx is listening on port 80.
+
+===================================================================================================
+
+5. Why volumes are important?
+
+Ans: Docker volumes are important because they provide persistent storage for application data. Data stored in a volume remains available even after a container is removed or recreated. Volumes also allow multiple containers to share data and make it easier to back up, restore, and manage application files independently of container lifecycles.
+
+===================================================================================================
