@@ -1,0 +1,30 @@
+1. What is Docker Compose?
+
+Ans: Docker Compose is a tool used to define, create, and manage multiple Docker containers together using a single YAML configuration file called `docker-compose.yml` or `compose.yaml`. It allows us to start and stop multiple services with simple commands such as `docker compose up` and `docker compose down`, making it easier to manage multi-container applications.
+
+========================================================================================
+
+2. What is a service in Compose?
+
+Ans: A service in Docker Compose defines an application component that runs inside a container. For example, an application may have an `app` service running Nginx and a `db` service running MySQL. Each service specifies its Docker image, ports, environment variables, volumes, and other configuration required to run the application.
+
+========================================================================================
+
+3. Difference between `docker run` and Docker Compose
+
+Ans: The `docker run` command is used to create and start an individual container by specifying its image and configuration directly in the terminal. Docker Compose is used to define and manage one or more containers through a YAML configuration file. While `docker run` is useful for starting individual containers, Docker Compose is more convenient for managing multi-container applications because all services can be configured and started together.
+
+========================================================================================
+
+4. What is YAML?
+
+Ans: YAML stands for YAML Ain't Markup Language. It is a human-readable data serialization format used to store configuration settings in a structured way. In Docker Compose, YAML files define services, images, ports, volumes, networks, and environment variables. YAML uses indentation to represent structure, so correct spacing is important.
+
+========================================================================================
+
+5. Why is Docker Compose useful?
+
+Ans: Docker Compose is useful because it simplifies the management of multi-container applications. It allows developers to define multiple services in a single configuration file, connect containers through networks, configure shared volumes, and start or stop the entire application using simple commands. It also makes application setup more consistent and repeatable across development and testing environments.
+
+========================================================================================
+
